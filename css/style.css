@@ -181,6 +181,9 @@ span
     #answer-box
     {
         height: 650px;
+    }
+    .big-title
+    {
         font-size: 30px;
     }
 }

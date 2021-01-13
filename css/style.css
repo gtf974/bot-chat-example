@@ -157,11 +157,6 @@ span
     transition: opacity .5s ease-in-out;
 }
 
-.fade
-{
-    opacity: 1;
-}
-
 /*SCROLLBAR WIDTH*/
 ::-webkit-scrollbar
 {
@@ -186,5 +181,6 @@ span
     #answer-box
     {
         height: 650px;
+        font-size: 30px;
     }
 }

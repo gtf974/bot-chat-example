@@ -83,7 +83,7 @@ const replies =
     ["I'm a robot created by Jean-Luc and Gaëtan. I have a bunch of features. Have fun with em", "I'm your father", "I'm just a bunch of 0s and 1s"],
 
     //10 : WHAT CAN YOU DO
-    [`<p>A lot of things:</p><p>Try these:</p><ul><li>-hi / hey / hello</li><li>-how are you / how are things</li><li>-whats up / whats going on</li><li>-i feel well / good / fantastic / happy / cool</li><li>-i feel bad / bored / tired / sad</li><li>-tell me a joke / tell me a story</li><li>-thanks / thank you</li><li>-bye / good bye / goodbye</li><li>-how old are you / how old you are</li><li>-who you are / who are you</li><li>-are you a robot / you are a robot</li><li>-do you know the way / do u know da wae / do you know da wae / do you know the wae</li></ul>`],
+    [`<p>A lot of things:</p><p>Try these:</p><ul><li>hi / hey / hello</li><li>how are you / how are things</li><li>whats up / whats going on</li><li>i feel well / good / fantastic / happy / cool</li><li>i feel bad / bored / tired / sad</li><li>tell me a joke / tell me a story</li><li>thanks / thank you</li><li>bye / good bye / goodbye</li><li>how old are you / how old you are</li><li>who you are / who are you</li><li>are you a robot / you are a robot</li><li>do you know the way / do u know da wae / do you know da wae / do you know the wae</li></ul>`],
 
     //11 : ROBOT
     ["FatalError at 0xC124zE", "Abort human kind destruction", "Do I look like a robot? 🤖"],

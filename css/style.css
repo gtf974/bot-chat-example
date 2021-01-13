@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*THE BODY*/
+
+body
+{ 
+    font-weight: bold; 
+    font-size: 18px; 
+    font-family: "Courier New"; 
+    background: rgb(75, 77, 77); 
+}
+
+/*THE MAIN BOX CONTAINING THE CHATBOX AND THE ROBOT PICTURE*/
+.main
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*BOTTOM OF THE CHATBOX CONTAINING THE INPUT FIELD AND THE RESET BUTTON*/
+.box-bottom
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 60px;
+    border-top: grey solid 1px;
+}
+
+/*INPUT FIELD*/
+#input
+{ 
+    border: 1; 
+    padding: 5px; 
+    border-radius: 0 20px 20px 0;   
+}
+
+#input:focus
+{
+    outline: none;
+}
+
+::-webkit-input-placeholder
+{ 
+    color: #711 
+}
+
+/*RESET BUTTON*/
+.reset
+{
+    border-radius: 20px 0 0 20px;
+    border: 0;
+    height: 25px;
+    color: white);
+    background-color: #FA4C4C;
+}
+
+.reset:hover
+{
+    background-color: #EA4343;
+}
+
+.reset:focus
+{
+    outline:none;
+}
+
+/*ENTER BUTTON*/
+.enter
+{
+    border-radius: 20px;
+    border: 0;
+    height: 25px;
+    color: rgb(54, 53, 53);
+    background-color: white;
+}
+
+.enter:hover
+{
+    background-color: #cecece;
+}
+
+.enter:focus
+{
+    outline:none;
+}
+
+/*THE MESSAGE THREAD BOX*/
+.messages-thread
+{
+    width: 600px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 20px 0 20px 20px;
+    box-shadow: 5px 5px 5px #2e2e2eda;
+}
+
+#answer-box
+{
+    height: 800px;
+    overflow: auto;
+}
+
+/*BOT AND USER ICON*/
+.bot-img, .user-img
+{
+    height: 20px;
+    width: 20px;
+}
+
+/*MESSAGE COLOR AND TEXT*/
+span
+{ 
+    color: white;
+    text-align: left;
+} 
+
+/*MARGIN FOR THE MESSAGES*/
+#user-input, #bot-response
+{
+    max-width: 350px;
+    margin: 5px;
+}
+
+#bot-response
+{
+    margin-left : auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+/*THE WHAT CAN YOU DO BIG HELP*/
+.bot-response-help
+{
+    margin-left : auto;
+    margin-right: 0;
+    max-width: 350px;
+    margin: 5px;
+    text-align: left;
+}
+
+/*SIZE OF THE GIF RESPONSE*/
+.gif-response
+{
+    max-width: 400px;
+    max-height: 200px;
+}
+
+/*BIG TEXT*/
+.big-title
+{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Roboto";
+    text-shadow: 5px 5px 5px #2e2e2eda;
+    transition: opacity .5s ease-in-out;
+}
+
+.fade
+{
+    opacity: 1;
+}
+
+/*SCROLLBAR WIDTH*/
+::-webkit-scrollbar
+{
+    width: 5px;
+}
+
+/*SCROLLBAR ELEVATOR*/
+::-webkit-scrollbar-thumb
+{
+    background: #888;
+    border-radius: 10px;
+}
+
+
+/*SMALL SCREEN*/
+@media screen and (max-width: 1000px)
+{
+    .big-bot-img
+    {
+        display:none;
+    }
+    #answer-box
+    {
+        height: 725px;
+    }
+}
